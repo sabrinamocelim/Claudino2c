@@ -1,5 +1,5 @@
 body {background-color: rgba(220, 20, 120, 0.897);
-color: #b500fc; 
+color: #000000; 
 font-size: 40px; 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 justify-content: center;
@@ -7,3 +7,8 @@ justify-items: center;
 text-align: center;
 
 text-align: center;
+}
+
+.imagem-cabecalho{
+    width: 5px ;
+}
