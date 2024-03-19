@@ -10,5 +10,13 @@ text-align: center;
 }
 
 .imagem-cabecalho{
-    width: 5px ;
-}
+    width: 500px ; }
+       
+
+
+
+    .titulo-cabecalho
+{display: inline-block;
+ margin:0 16px 0;
+ padding: 100px 0;
+font-size: 40px;}
