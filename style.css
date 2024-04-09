@@ -5,8 +5,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 justify-content: center;
 justify-items: center;
 text-align: center;
-
-text-align: center;
+text-align: center; text-align: center;
 }
 
 .imagem-cabecalho{
@@ -16,12 +15,13 @@ text-align: center;
  margin:0 16px 0;
  padding: 100px 0;
 font-size: 40px;}
-.cabecalho {
+.cabecalho{
     background-color: rgb(12, 3, 20); 
     color: aliceblue;
     display: flex;
     justify-content: space-around;
     padding:  24pX 0;}
+
 .cabecalho-item 
 {display: inline-block;
 margin: 0 16px ;
@@ -29,6 +29,14 @@ padding: 24px 0;
 font-size: 24px ;} 
 
 .escola-imagem{  
- width: 25%;
+ width: 455%;
 }
 
+.escola { 
+    background-image: linear-gradient(RED,BLACK);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
