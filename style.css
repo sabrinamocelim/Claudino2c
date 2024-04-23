@@ -1,42 +1,64 @@
-body {background-color: rgba(252, 0, 0, 0.897);
-color: #080202; 
-font-size: 40px; 
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-justify-content: center;
-justify-items: center;
-text-align: center;
-text-align: center; text-align: center;
-}
-
-.imagem-cabecalho{
-    width: 500px ; }
-    .titulo-cabecalho
-{display: inline-block;
- margin:0 16px 0;
- padding: 100px 0;
-font-size: 40px;}
-.cabecalho{
-    background-color: rgb(12, 3, 20); 
-    color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-    padding:  24pX 0;}
-
-.cabecalho-item 
-{display: inline-block;
-margin: 0 16px ;
-padding: 24px 0;
-font-size: 24px ;} 
-
-.escola-imagem{  
- width: 455%;
-}
-
-.escola { 
-    background-image: linear-gradient(RED,BLACK);
-    color: aliceblue;
-    display: flex;
+body { background-color: rgb(4, 0, 0);
+    color: rgb(15, 15, 14);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+    justify-items: center;
+    text-align: center;
+} .imagem-cabecalho{width: 200px;}
+
+.titulocabecalho
+{display: inline-block;
+  margin:0 16px;
+  padding: 100px 0;
+  font-size: 40px;}
+
+.escola-titulo{
+  font-size:50px;
 }
+
+
+  .cabecalho {background-color: rgb(255, 0, 0);
+color: rgb(3, 3, 3);
+display: flex;
+justify-content: space-around; 
+padding: 20px 0;}
+
+.cabecalho-itens
+{display: inline-block;
+margin: 0 16px;
+padding: 24px 0;
+font-size: 24px;}
+
+.escola-imagem
+{width: 50%;}
+
+.escola{
+  background-image: linear-gradient(red,black);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;}
+
+
+  .escola-conteudo{
+    width: 50%
+  }
+
+  .escola-titulo
+  {padding: 50px 30px;
+font-family: cursive;
+  }
+   .aluno-um{ 
+    width: 40%;
+    height: 220px;
+   }
+
+
+   .estudante-titulo
+   { 
+    text-align:center ;
+    padding: 50px;
+    font: size 30px;
+   }
