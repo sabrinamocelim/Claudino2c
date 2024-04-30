@@ -1,5 +1,5 @@
-body { background-color: rgb(4, 0, 0);
-    color: rgb(15, 15, 14);
+body { background-color: rgb(245, 233, 233);
+    color: rgb(10, 10, 1);
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
@@ -34,7 +34,7 @@ font-size: 24px;}
 {width: 50%;}
 
 .escola{
-  background-image: linear-gradient(red,black);
+  background-image: linear-gradient(red,rgb(211, 202, 202));
   color: white;
   display: flex;
   justify-content: center;
@@ -60,5 +60,13 @@ font-family: cursive;
    { 
     text-align:center ;
     padding: 50px;
-    font: size 30px;
+    font-size: 30px;
    }
+
+    .estudante-div {  
+  text-align: center;
+  }
+  .estudante-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
