@@ -34,8 +34,8 @@ font-size: 24px;}
 {width: 50%;}
 
 .escola{
-  background-image: linear-gradient(red,rgb(211, 202, 202));
-  color: white;
+  background-image: linear-gradient(rgb(189, 26, 26),rgb(145, 8, 8));
+  color: rgb(7, 6, 6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,3 +70,14 @@ font-family: cursive;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
+  .lista-rodape
+  {
+    display: block;
+    text-align: center;
+    font-size: 20px;}
+     footer{ 
+      background-color: black;
+      color: azure;
+      text-align: center;
+      font-size: 40px;
+     }
